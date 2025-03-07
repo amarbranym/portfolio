@@ -1,0 +1,181 @@
+{
+    "sections": [
+       
+        {
+            "__component": "personalInfo",
+            "__id": "personalInfo",
+            "name": "✋ Hi, I'm Amarjeet Singh",
+            "title": "A Creative Front-End",
+            "strokeText": "Developer",
+            "about": "I am a passionate Frontend Developer with expertise in React.js, Next.js, and Tailwind CSS. I love building interactive and dynamic user interfaces.",
+            "image": {
+                "src": "/images/Hero-3.png",
+                "alt": "Amarjeet Singh - Frontend Developer"
+            },
+            "buttons": [
+                {
+                    "text": "Download CV",
+                    "link": "/resume.pdf",
+                    "icon": "Download"
+                },
+                {
+                    "text": "Hire me",
+                    "link": "#contact",
+                    "icon": ""
+                }
+            ],
+            "socials": {
+                "title": "follow me 👇",
+                "social_btns": [
+                    {
+                        "icon": "LinkedIn",
+                        "link": "https://www.linkedin.com/in/amarjeet-singh-0782831ba/"
+                    },
+                    {
+                        "icon": "Github",
+                        "link": "https://github.com/amarbranym"
+                    },
+                    {
+                        "icon": "Instagram",
+                        "link": "https://www.instagram.com/amarjeet.singh.7/"
+                    }
+                ]
+            }
+        },
+        {
+            "__component": "about",
+            "__id": "about",
+            "name": "✋ About me",
+            "title": "What i can ",
+            "strokeText": "do?",
+            "description": "I am a passionate Front-End Developer with over 2 years of experience in creating dynamic and high-performance web applications. My expertise is in building responsive and interactive user interfaces using modern technologies such as React.js, Next.js, and Tailwind CSS. I excel at optimizing performance, writing clean and reusable code, and collaborating with teams to bring innovative ideas to life. Always eager to learn, I keep up with the latest trends to deliver seamless and engaging user experiences.",
+            "image": {
+                "src": "/images/about-1.png",
+                "alt": "Amarjeet Singh - Frontend Developer"
+            },
+            "buttonText": "GET IN TOUCH NOW",
+            "strengths": [
+                {
+                    "title": "✅ Problem-Solving",
+                    "description": "Able to debug and solve complex issues efficiently."
+                },
+                {
+                    "title": "✅ Attention to Detail",
+                    "description": "Ensures high-quality, optimized, and maintainable code."
+                },
+                {
+                    "title": "✅ Team Collaboration",
+                    "description": "Experience in working with cross-functional teams."
+                },
+                {
+                    "title": "✅ Quick Learner",
+                    "description": "Adapts to new technologies and frameworks quickly."
+                }
+            ]
+        },
+        {
+            "__component": "skill",
+            "__id": "skill",
+            "name": "⭐ MY SKILLS",
+            "title": "explore my ",
+            "strokeText": "skills",
+            "frontend": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "TypeScript",
+                "React.JS",
+                "Redux",
+                "Formik",
+                "Yup",
+                "Next.JS",
+                "TailwindCSS",
+                "Chakra UI"
+            ],
+            "backend": [
+                "Node.js",
+                "Express.js",
+                "MongoDB"
+            ],
+            "other": [
+                "Github",
+                "figma",
+                "Git",
+                "StrapiCMS",
+                "Hygraph",
+                "vscode",
+                "webflow"
+            ]
+        },
+        {
+            "__component": "project",
+            "__id": "project",
+            "name": "⭐ MY PORTFOLIO",
+            "title": "MY LETEST",
+            "strokeText": "WORK &",
+            "projects": [
+                {
+                    "id": 1,
+                    "date": "2020",
+                    "title": "Company Founded",
+                    "description": "Started our journey in a small garage with big dreams",
+                    "img": "/images/brynm.jpg"
+                },
+                {
+                    "id": 2,
+                    "date": "2020",
+                    "title": "Company Founded",
+                    "description": "Started our journey in a small garage with big dreams",
+                    "img": "/images/myportfolio.jpg"
+                },
+                {
+                    "id": 3,
+                    "date": "2020",
+                    "title": "Company Founded",
+                    "description": "Started our journey in a small garage with big dreams",
+                    "img": "/images/astroans.jpg"
+                },
+                {
+                    "id": 4,
+                    "date": "2020",
+                    "title": "Company Founded",
+                    "description": "Started our journey in a small garage with big dreams",
+                    "img": "/images/luxpacker.png"
+                },
+                {
+                    "id": 5,
+                    "date": "2020",
+                    "title": "Company Founded",
+                    "description": "Started our journey in a small garage with big dreams",
+                    "img": "/images/bemployed.jpg"
+                }
+            ]
+        },
+        {
+            "__component": "contact",
+            "__id": "contact",
+            "name": "⭐ contact me",
+            "title": "get in",
+            "strokeText": "Touch",
+            "description": "I’m always open to exciting opportunities and collaborations. Whether you need a high-performance web solution or just want to connect, feel free to reach out!",
+            "copyRightText": "© 2025 Personal Portfolio. All Rights Reserved Designed By Amarjeet Singh",
+            "button": {
+                "text": "Download CV",
+                "link": "/resume.pdf",
+                "icon": "Download"
+            },
+            "contacts": [
+                {
+                    "title": "call",
+                    "contact": "+91- 6377579544",
+                    "icon": "Call"
+                },
+                {
+                    "title": "email",
+                    "contact": "amarjeetsingh94620@gmail.com",
+                    "icon": "Mail"
+                }
+            ]
+        }
+    ]
+}
