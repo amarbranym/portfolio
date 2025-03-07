@@ -7,7 +7,7 @@ import Call from "./icons/Call"
 import Mail from "./icons/Mail"
 import clsx from "clsx";
 
-const iconMap: Record<string, React.FC<{ className?: string }>> = {
+const iconMap: any = {
     Download,
     Github,
     LinkedIn,
@@ -16,7 +16,7 @@ const iconMap: Record<string, React.FC<{ className?: string }>> = {
     Mail
 };
 
-const Icons: React.FC<{ name: string; className?: string }> = ({ name, className }) => {
+const Icons: React.FC<any> = ({ name, className }) => {
     const IconComponent = iconMap[name];
 
     if (!IconComponent) return null; // Prevent errors if icon not found
