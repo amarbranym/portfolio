@@ -9,6 +9,7 @@ import Heading from '../ui/Heading'
 import SubHeading from '../ui/SubHeading'
 import Icons from '../ui/Icons'
 import ContactForm from '../ui/ContactForm'
+import Link from 'next/link'
 
 const Contact = ({ name, title, strokeText, id, contacts, description, copyRightText, button }: any) => {
     return (
@@ -48,9 +49,11 @@ const Contact = ({ name, title, strokeText, id, contacts, description, copyRight
                             }
                         </div>
                         <div>
+                            <Link href={button.link} target='_blank'   download={button.link}>
                             <Button data-aos="fade-up" data-aos-delay={"500"} size="lg" className=" flex gap-2 bg-gradient-primary font-bold px-6">
                                 <Icons name={button.icon} /> {button.text}
                             </Button>
+                            </Link>
                         </div>
                     </div>
 

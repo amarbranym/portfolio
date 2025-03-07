@@ -31,8 +31,8 @@ const InfoSection = ({ name, title, image, about, buttons, socials, strokeText, 
                 <div className=" mt-10 py-2 flex gap-4 overflow-hidden">
                     {
                         buttons.map((item: any, index: number) => (
-                            <Link key={index} href={item.link} >
-                            <Button   data-aos="fade-up"  data-aos-delay={index+1 * 100}  size="lg" className=" flex gap-2 font-bold bg-gradient-primary ">
+                            <Link key={index} href={item.link}  >
+                            <Button     data-aos="fade-up"  data-aos-delay={index+1 * 100}  size="lg" className=" flex gap-2 font-bold bg-gradient-primary ">
                                 {item.icon && <Icons name={item.icon} className='font-bold scale-150' />}  {item.text}
                             </Button>
                             </Link>

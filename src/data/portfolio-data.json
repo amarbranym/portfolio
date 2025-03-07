@@ -15,7 +15,7 @@
             "buttons": [
                 {
                     "text": "Download CV",
-                    "link": "/resume.pdf",
+                    "link": "/Amarjeet-Frontend-developer-role-cv.pdf",
                     "icon": "Download"
                 },
                 {
@@ -161,7 +161,7 @@
             "copyRightText": "© 2025 Personal Portfolio. All Rights Reserved Designed By Amarjeet Singh",
             "button": {
                 "text": "Download CV",
-                "link": "/resume.pdf",
+                "link": "/Amarjeet-Frontend-developer-role-cv.pdf",
                 "icon": "Download"
             },
             "contacts": [
