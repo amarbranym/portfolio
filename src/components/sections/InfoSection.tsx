@@ -18,7 +18,7 @@ const InfoSection = ({ name, title, image, about, buttons, socials, strokeText, 
                 <SubHeading text={title} strokeText={strokeText}  />
             </div>
             <div className=" order-2 xl:order-1 col-span-2 xl:col-span-1 flex justify-center items-center ">
-                <div className="w-[80%]">
+                <div data-aos="zoom-in" className="w-[80%]">
                     <HeroImage image={image} />
                 </div>
             </div>
@@ -31,7 +31,7 @@ const InfoSection = ({ name, title, image, about, buttons, socials, strokeText, 
                 <div className=" mt-10 py-2 flex gap-4 overflow-hidden">
                     {
                         buttons.map((item: any, index: number) => (
-                            <Link key={index} href={item.link}  >
+                            <Link key={index} href={item.link} download={item.link} >
                             <Button     data-aos="fade-up"  data-aos-delay={index+1 * 100}  size="lg" className=" flex gap-2 font-bold bg-gradient-primary ">
                                 {item.icon && <Icons name={item.icon} className='font-bold scale-150' />}  {item.text}
                             </Button>

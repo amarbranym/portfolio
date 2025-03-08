@@ -1,6 +1,5 @@
 {
     "sections": [
-       
         {
             "__component": "personalInfo",
             "__id": "personalInfo",
@@ -22,6 +21,7 @@
                     "text": "Hire me",
                     "link": "#contact",
                     "icon": ""
+
                 }
             ],
             "socials": {
@@ -116,38 +116,38 @@
             "projects": [
                 {
                     "id": 1,
-                    "date": "2020",
-                    "title": "Company Founded",
-                    "description": "Started our journey in a small garage with big dreams",
-                    "img": "/images/brynm.jpg"
+                    "title": "Branym Technologies",
+                    "description": "Branym Technologies is an AI-powered SaaS platform that helps businesses enhance engagement and maximize their online presence with cutting-edge technology.",
+                    "img": "/images/branym.png",
+                    "link": "https://branym-web.vercel.app/"
                 },
                 {
                     "id": 2,
-                    "date": "2020",
-                    "title": "Company Founded",
-                    "description": "Started our journey in a small garage with big dreams",
-                    "img": "/images/myportfolio.jpg"
+                    "title": "Astrologer",
+                    "description": "Let's bring your partner back in your life with the help of astrology and start living your dream love life! Get personalized predictions and guidance based on astrology.",
+                    "img": "/images/astroansh.png",
+                    "link": "https://www.astroansh.in/consult_for_49"
                 },
                 {
                     "id": 3,
-                    "date": "2020",
-                    "title": "Company Founded",
-                    "description": "Started our journey in a small garage with big dreams",
-                    "img": "/images/astroans.jpg"
+                    "title": "Portfolio Website",
+                    "description": "A modern and responsive portfolio website built with Next.js, React, and Tailwind CSS to showcase my projects, skills, and experience.",
+                    "img": "/images/portfolio.png",
+                    "link": "https://amarjeet-singh.vercel.app/"
                 },
                 {
                     "id": 4,
-                    "date": "2020",
-                    "title": "Company Founded",
-                    "description": "Started our journey in a small garage with big dreams",
-                    "img": "/images/luxpacker.png"
+                    "title": "Bemployed - Job Placement Dashboard",
+                    "description": "A dynamic job placement dashboard that connects job seekers with recruiters using real-time data and analytics.",
+                    "img": "/images/bemployed.png",
+                    "link": "https://admin.bemployed.in/"
                 },
                 {
-                    "id": 5,
-                    "date": "2020",
-                    "title": "Company Founded",
-                    "description": "Started our journey in a small garage with big dreams",
-                    "img": "/images/bemployed.jpg"
+                    "id": 6,
+                    "title": "LuxPacker - Travel Website",
+                    "description": "A beautifully designed travel website that helps users explore destinations, book trips, and get personalized travel recommendations.",
+                    "img": "/images/luxpacker.png",
+                    "link": "https://luxpackers.vercel.app/package"
                 }
             ]
         },

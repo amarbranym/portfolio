@@ -1,6 +1,8 @@
 "use client"
 import { motion, useAnimationControls, useScroll, useTransform } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 interface TimelineItem {
@@ -9,11 +11,12 @@ interface TimelineItem {
     title: string;
     description: string;
     img: any;
+    link: any;
 }
 
 
 
-export default function Timeline({projects}:{projects:TimelineItem[]}) {
+export default function Timeline({ projects }: { projects: TimelineItem[] }) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -49,7 +52,7 @@ function TimelineItem({ item, index }: TimelineItemProps) {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-      setIsMobile(window.innerWidth < 768);
+        setIsMobile(window.innerWidth < 768);
     }, []);
     return (
         <div
@@ -66,8 +69,8 @@ function TimelineItem({ item, index }: TimelineItemProps) {
             <div className={`absolute group-hover: h-full right-0  flex   ${isEven ? 'md:left-1/2 md:ml-14 justify-end  md:justify-start' : 'md:right-1/2 md:mr-14 justify-end'} w-[90%] md:w-[40%]  `}>
 
                 <div
-                   data-aos={isMobile ? "fade-left" : isEven ? "fade-left" : "fade-right" }
-                   data-aos-duration="500"
+                    data-aos={isMobile ? "fade-left" : isEven ? "fade-left" : "fade-right"}
+                    data-aos-duration="500"
                     className=" relative border border-black-300  h-[75%] w-[100%] md:w-[80%] md:mt-6 rounded-md group ">
 
                     <span className={`w-4 h-2 absolute top-[4rem] md:top-12 bg-green    ${isEven ? "-left-[8px] md:-left-[16px]" : "    right-[97.6%] md:!-right-[16px] "}`}>
@@ -75,8 +78,14 @@ function TimelineItem({ item, index }: TimelineItemProps) {
                     </span>
                     <Image src={item.img} alt="projects" fill className=" !rounded-md object-cover" />
                     <div
-                    
-                        className={` absolute border border-black-300 -bottom-[32%] md:-bottom-[24%] ${isEven ? " md:-right-[25%] group-hover:right-0" : "md:-left-[25%] group-hover:left-0"}  w-full h-[100px] lg:h-[150px] bg-black-300/50 rounded-md backdrop-blur-md transition-all duration-300   `}>
+
+                        className={` absolute border border-black-300 -bottom-[32%] md:-bottom-[24%] ${isEven ? " md:-right-[25%] group-hover:right-0" : "md:-left-[25%] group-hover:left-0"}  w-full h-[100px] lg:h-[100px] bg-black-300/50 rounded-md backdrop-blur-md transition-all duration-300 p-2   `}>
+                        <Link href={item.link} target="_blank" className=" w-full h-full flex justify-center items-center  relative">
+                            <h2 className="text-green font-bold text-xl ">{item.title} </h2>
+                            <span className=" absolute top-0 right-0 text-green">
+                                <ExternalLink />
+                            </span>
+                        </Link>
                     </div>
 
                 </div>
